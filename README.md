@@ -55,3 +55,52 @@ In this chapter, we will learn how contracts can safely dispatch inter contract 
 In this chapter, we will learn about smart contracts best practices. We will be suggesting design patterns and recommandations aiming at maximizing security.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lgalabru/clarity-notebook/master?filepath=work%2Finteractive-tour-chapter-09.ipynb)
+
+### Run the notebooks locally
+
+The first step is to ensure that you have Rust and the support software installed.
+
+```bash
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+Then you need to install Jupyter, using your favourite package manager:
+
+```bash
+brew install jupyter
+```
+
+And install Clarity for Jupyter:
+
+```bash
+cargo install clarity-jupyter-kernel
+clarity-jupyter-kernel --install
+```
+
+From there, you can clone this repository:
+
+```bash
+git clone https://github.com/lgalabru/clarity-notebook.git
+
+cd clarity-notebook
+```
+
+Then start Jupyter:
+
+```bash
+jupyter-notebook
+```
+
+Happy hacking / learning!
+
+## Current status
+
+- [x] Chapter 1 - drafted
+- [x] Chapter 2 - drafted
+- [x] Chapter 3 - drafted
+- [x] Chapter 4 - drafted
+- [ ] Chapter 5
+- [ ] Chapter 6
+- [ ] Chapter 7
+- [ ] Chapter 8
+- [ ] Chapter 9
