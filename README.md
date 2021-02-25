@@ -56,6 +56,14 @@ In this chapter, we will learn about smart contracts best practices. We will be 
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lgalabru/clarity-notebook/master?filepath=work%2Finteractive-tour-chapter-09.ipynb)
 
+### Misc
+
+#### Generating some randomness
+
+In this notebook, we will generate some randomness, using the VRF of the current block
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lgalabru/clarity-notebook/master?filepath=work%2Fmisc-randomness.ipynb)
+
 ### Run the notebooks locally
 
 The first step is to ensure that you have Rust and the support software installed.
